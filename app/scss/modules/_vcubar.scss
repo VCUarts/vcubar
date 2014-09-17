@@ -29,6 +29,16 @@
       height: 20px;
       left: 20px;
       margin-top: -10px;
+      
+      @include breakpoint($tablet-portrait-and-below) {
+        width: 70px;
+        overflow: hidden;
+      }
+      
+      img{
+        width: 391px;
+        height: 20px;
+      }
 
       &:hover{
         .monotone {

@@ -21,72 +21,73 @@ body {
 }
 
 .vcubar{
-  
-  &.absolute{
 
-    &.light{
-      background: $white;
-      border-top: 3px solid $grey;
-      border-bottom: 3px solid $grey;
-    }
+  &.light{
+    background: $white;
+    border-top: 3px solid $grey;
+    border-bottom: 3px solid $grey;
+  }
 
-    &.dark{
-      background: $black;
-      border-top: 3px solid $black;
-      border-bottom: 3px solid $black;
-    }
+  &.dark{
+    background: $black;
+    border-top: 3px solid $black;
+    border-bottom: 3px solid $black;
+  }
 
-    .inner-vcubar{
-      @include container();
-      height: 2em;
-      position: relative;
-    }
+  .inner-vcubar{
+    @include container();
+    height: 32px;
+    position: relative;
+  }
 
-    a{
-      display: block;
-      height: 2em;
-      position: relative;
+  a{
+    display: block;
+    height: 32px;
+    position: absolute;
+    top: 50%;
 
-      &.vcu{
-        width: 391px;
-        height: auto;
+    &.vcu{
+      width: 391px;
+      height: 20px;
+      left: 20px;
+      margin-top: -10px;
 
-        &:hover{
-          .monotone {
-            opacity: 0;
-            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-            filter: alpha(opacity=0);
-          }
-          .color {
-            opacity: 1.0;
-            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-            filter: alpha(opacity=100);
-          }
+      &:hover{
+        .monotone {
+          opacity: 0;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+          filter: alpha(opacity=0);
+        }
+        .color {
+          opacity: 1.0;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+          filter: alpha(opacity=100);
         }
       }
+    }
 
-      &.vcuarts{
-        width: 96px;
-        height: auto;
-        float: right;
+    &.vcuarts{
+      width: 96px;
+      height: 20px;
+      right: 20px;
+      margin-top: -12px;
 
-        &:hover{
-          .monotone {
-            opacity: 0;
-            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-            filter: alpha(opacity=0);
-          }
-          .color {
-            opacity: 1.0;
-            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-            filter: alpha(opacity=100);
-          }
+      &:hover{
+        .monotone {
+          opacity: 0;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+          filter: alpha(opacity=0);
+        }
+        .color {
+          opacity: 1.0;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+          filter: alpha(opacity=100);
         }
       }
+    }
 
-      img{
-        position: absolute;
-      }
+    img{
+      position: absolute;
     }
 
     .color {

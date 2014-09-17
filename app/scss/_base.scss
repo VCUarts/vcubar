@@ -1,3 +1,25 @@
+/******************************************************************
+Site Name: VCUbar
+Author: https://github.com/VCUarts
+
+Stylesheet: Base Stylesheet
+
+******************************************************************/
+
+html {
+
+}
+
+body {
+  
+}
+
+#main {
+
+	@include container($wrapper-width);
+	
+}
+
 .vcubar{
 
   &.light{
@@ -66,7 +88,6 @@
 
     img{
       position: absolute;
-      border: 0;
     }
 
     .color {

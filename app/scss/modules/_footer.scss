@@ -14,8 +14,7 @@ Stylesheet: Footer Stylesheet
 	&__inner {
 
 		@include container($wrapper-width);
-		padding: 1em 0;
-
+    
 		@at-root .copyright {
 
 		}

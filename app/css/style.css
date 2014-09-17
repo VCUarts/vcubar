@@ -24,15 +24,15 @@ Stylesheet: Import Modules Stylesheet
 ******************************************************************/
 /* line 3, ../scss/modules/_vcubar.scss */
 .vcubar.light {
-  background: white;
+  background: #fff;
   border-top: 3px solid #aab2b1;
   border-bottom: 3px solid #aab2b1;
 }
 /* line 9, ../scss/modules/_vcubar.scss */
 .vcubar.dark {
-  background: black;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  background: #000;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
 }
 /* line 15, ../scss/modules/_vcubar.scss */
 .vcubar .inner-vcubar {
@@ -42,7 +42,7 @@ Stylesheet: Import Modules Stylesheet
   height: 32px;
   position: relative;
 }
-/* line 12, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
 .vcubar .inner-vcubar:after {
   content: " ";
   display: block;

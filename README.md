@@ -16,6 +16,11 @@ Using SVGs as imgs, CSS and an inline js fallback.
 [github](https://github.com/VCUarts/vcubar)  
 
 # Download Latest Release
-[Download v1.0](https://github.com/VCUarts/vcubar/releases/download/v1.0/vcu-vcuarts-brandingbar-v1.zip)
+
+* [Download v1.0 - All versions](https://github.com/VCUarts/vcubar/releases/download/v1.0/vcu-vcuarts-brandingbar-v1.zip)
+* [VCU Only - Dark](https://github.com/VCUarts/vcubar/releases/download/v1.0/vcu-dk.zip)
+* [VCU & VCUarts - Dark](https://github.com/VCUarts/vcubar/releases/download/v1.0/vcu-vcuarts-dk.zip)
+* [VCU Only - Light](https://github.com/VCUarts/vcubar/releases/download/v1.0/vcu-lt.zip)
+* [VCU & VCUarts - Light](https://github.com/VCUarts/vcubar/releases/download/v1.0/vcu-vcuarts-lt.zip)
 
 made with &hearts; by [VCUarts](http://arts.vcu.edu).

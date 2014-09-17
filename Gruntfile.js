@@ -234,7 +234,7 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['browserSync','watch']); 
 
     // cleans directories, does everything for css, js, and images for deploy
-    grunt.registerTask('prod', ['includes','imagemin', 'compass:dist', 'autoprefixer', 'cmq', 'cssmin', 'concat', 'uglify','includes:build','devcode:dist','htmlmin']);
+    grunt.registerTask('prod', ['includes','imagemin', 'compass:dist', 'autoprefixer', 'cmq', 'cssmin', 'concat','includes:build','devcode:dist','htmlmin']);
 
     // T4 template tags
     grunt.registerTask('t4', ['grunt-text-replace']);

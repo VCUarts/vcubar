@@ -23,14 +23,10 @@ $susy: (
   ),
 );
 
-$wrapper-width: 1200px;
+$wrapper-width: 1024px;
 
-@import "normalize";
 @import "colors";
-@import "mixins";
 @import "breakpoints";
 @import "base";
 @import "modules/modules";
-@import "print";
-@import "shame";
 

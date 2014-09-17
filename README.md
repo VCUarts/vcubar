@@ -1,40 +1,11 @@
-# Bread Pudding
+# VCUbar
 
-Loosely based of @jpweller's boilerplate.
+Proposed standard.
 
-## How To: 
-```bash
-bundle install
-npm install
-grunt
-```
-Paste sync scripts into `app/include/parts/dev-scripts.html`
+SVG and CSS with an inline js Fallback.
 
-Work in the `app` directory. 
-
-When ready for production use the prod task.
-
-```bash
-grunt prod
-```
-
-It will create a new `build` directory that is ready for deployment.
-
-## Known Issues
-
-If grunt-contrib-imagmin fails to install properly because of pngquant see [issue](https://github.com/gruntjs/grunt-contrib-imagemin/issues/183/#issuecomment-41841391)
-
-
-```
-                 ____
-     .----------'    '-.
-    /  .      '     .   \\ *
-   /        '    .      /|
-  /      .             \ /
- /  ' .       .     .  || |
-/.___________    '    / //
-|._          '------'| /|
-'.............______.-' /  
-|-.                  | /
-`"""""""""""""-.....-'    *pudding
-```
+:) Chrome
+:) Safari
+:) Firefox
+:) IE8+
+:S IE6-7

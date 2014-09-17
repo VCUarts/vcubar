@@ -1,6 +1,8 @@
 # VCUbar
 
-Proposed standard.
+Proposed standard.  
+
+![VCU & VCUarts branding bar](https://raw.githubusercontent.com/VCUarts/vcubar/master/screenshots/vcubar-ss.png)
 
 Using SVGs as imgs, CSS and an inline js fallback.
 [[source]](http://css-tricks.com/using-svg/)

@@ -16,106 +16,12 @@ Stylesheet: Color Constants
 COLORS
 *********************/
 /******************************************************************
-Site Name: VCUbar
-Author: https://github.com/VCUarts
-
-Stylesheet: Base Stylesheet
-
-******************************************************************/
-/* line 17, ../scss/_base.scss */
-#main {
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 12, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
-#main:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
-/******************************************************************
 Site Name: 
 Author: 
 
 Stylesheet: Import Modules Stylesheet
 
 ******************************************************************/
-/******************************************************************
-Site Name: 
-Author: 
-
-Stylesheet: Header Stylesheet
-
-******************************************************************/
-/* line 12, ../scss/modules/_header.scss */
-.header__inner {
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 12, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
-.header__inner:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
-/******************************************************************
-Site Name: 
-Author: 
-
-Stylesheet: Navigation Stylesheet
-
-******************************************************************/
-@media (min-width: 1025px) {
-  /* line 13, ../scss/modules/_nav.scss */
-  .nav ul > li {
-    display: inline-block;
-  }
-}
-
-@media (min-width: 1025px) {
-  /* line 40, ../scss/modules/_nav.scss */
-  #mobile-nav-button {
-    display: none;
-  }
-}
-
-/******************************************************************
-Site Name: 
-Author: 
-
-Stylesheet: Navigation Stylesheet
-
-******************************************************************/
-/******************************************************************
-Site Name: 
-Author: 
-
-Stylesheet: Footer Stylesheet
-
-******************************************************************/
-/* line 9, ../scss/modules/_footer.scss */
-.footer {
-  background: black;
-  color: white;
-}
-/* line 14, ../scss/modules/_footer.scss */
-.footer__inner {
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em 0;
-}
-/* line 12, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/susy-2.1.2/sass/susy/output/support/_clearfix.scss */
-.footer__inner:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
 /* line 5, ../scss/modules/_vcubar.scss */
 .vcubar.absolute.light {
   background: white;

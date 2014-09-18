@@ -2,32 +2,13 @@ include "head.html"
 include "header.html"
 
 <h1>CSS only with inline JS fallback - light</h1>
-  <div class="vcubar-topbar light">
-    <div class="inner-vcubar">
-      <a href="http://vcu.edu" target="_blank" class="vcu">
-        <img class="monotone" src="img/svg/vcu-lt.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcu-lt.jpg'">
-        <img class="color" src="img/svg/vcu-lt-hover.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcu-lt-hover.jpg'">
-      </a>
-      
-      <a href="http://arts.vcu.edu" target="_blank" class="vcuarts">
-        <img class="monotone" src="img/svg/vcuarts.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcuarts.jpg'">
-        <img class="color" src="img/svg/vcuarts-hover.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcuarts-hover.jpg'">
-      </a>
-    </div>
-  </div>
+  include "bars/vcu-dk.html"
   <a href="/vcubar/build/vcu-lt.html">[source]</a>
 
   <br/>
   <br/>
 
-  <div class="vcubar-topbar light">
-    <div class="inner-vcubar">
-      <a href="http://vcu.edu" target="_blank" class="vcu">
-        <img class="monotone" src="img/svg/vcu-lt.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcu-lt.jpg'">
-        <img class="color" src="img/svg/vcu-lt-hover.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcu-lt-hover.jpg'">
-      </a>
-    </div>
-  </div>
+  include "bars/vcu-vcuarts-lt.html"
   <a href="/vcubar/build/vcu-vcuarts-lt.html">[source]</a>
 
 
@@ -35,33 +16,14 @@ include "header.html"
 <br/>
 
 <h1>CSS only with inline JS fallback - dark</h1>
-  <div class="vcubar-topbar dark">
-    <div class="inner-vcubar">
-      <a href="http://vcu.edu" target="_blank" class="vcu">
-        <img class="monotone" src="img/svg/vcu-dk.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcu-dk.jpg'">
-        <img class="color" src="img/svg/vcu-dk-hover.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcu-dk-hover.jpg'">
-      </a>
-      
-      <a href="http://arts.vcu.edu" target="_blank" class="vcuarts">
-        <img class="monotone" src="img/svg/vcuarts.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcuarts-dk.jpg'">
-        <img class="color" src="img/svg/vcuarts-hover.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcuarts-dk-hover.jpg'">
-      </a>
-    </div>
-  </div>
+  include "bars/vcu-dk.html"
   <a href="/vcubar/build/vcu-dk.html">[source]</a>
 
 
 <br/>
 <br/>
 
-  <div class="vcubar-topbar dark">
-    <div class="inner-vcubar">
-      <a href="http://vcu.edu" target="_blank" class="vcu">
-        <img class="monotone" src="img/svg/vcu-dk.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcu-dk.jpg'">
-        <img class="color" src="img/svg/vcu-dk-hover.svg" onerror="this.onerror=null; this.src='img/svg/fallbacks/vcu-dk-hover.jpg'">
-      </a>
-    </div>
-  </div>
+  include "bars/vcu-vcuarts-dk.html"
   <a href="/vcubar/build/vcu-vcuarts-dk.html">[source]</a>
 
 include "footer.html"

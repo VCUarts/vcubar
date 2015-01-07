@@ -8,15 +8,18 @@ Stylesheet: Footer Stylesheet
 
 .footer {
 
-	background: $black;
-	color: $white;
+  margin-top: 100px;
 
 	&__inner {
 
 		@include container($wrapper-width);
     
-		@at-root .copyright {
-
-		}
 	}
+
+  .gh-btn {
+    background-color: lighten($black, 80%);
+    padding: 15px 20px;
+    color: $black;
+    text-decoration: none;
+  }
 }
